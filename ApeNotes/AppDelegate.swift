@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //MMMZkdM7QXtsHfTjrL14S3MGDiTJwhOfLS60wk6o
         
         Parse.enableLocalDatastore()
+        ParseCrashReporting.enable()
         
         Parse.setApplicationId("KxRcCm4vh2s5HWfYxXozKe3k9XMKwAq1otzRD5ET", clientKey: "MMMZkdM7QXtsHfTjrL14S3MGDiTJwhOfLS60wk6o")
         

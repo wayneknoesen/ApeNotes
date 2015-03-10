@@ -8,4 +8,5 @@
 
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
+#import <ParseCrashReporting/ParseCrashReporting.h>
 

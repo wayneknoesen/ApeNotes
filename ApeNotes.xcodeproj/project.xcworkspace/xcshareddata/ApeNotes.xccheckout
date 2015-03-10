@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFABC609-C293-45E4-8F80-DA6DE984A18F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ApeNotes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3DF69A10BD6D338F7ED219AC610A413474D9225F</key>
+		<string>https://github.com/wayneknoesen/ApeNotes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ApeNotes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3DF69A10BD6D338F7ED219AC610A413474D9225F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wayneknoesen/ApeNotes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3DF69A10BD6D338F7ED219AC610A413474D9225F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3DF69A10BD6D338F7ED219AC610A413474D9225F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ApeNotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

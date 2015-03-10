@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4720B0D01A8FCB6500294421 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4720B0CF1A8FCB6500294421 /* ParseUI.framework */; };
+		4720B0D31A90168400294421 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4720B0D21A90168400294421 /* libstdc++.6.dylib */; };
 		478CBD651A8FB72E00108752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CBD641A8FB72E00108752 /* AppDelegate.swift */; };
 		478CBD6A1A8FB72E00108752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CBD681A8FB72E00108752 /* Main.storyboard */; };
 		478CBD6C1A8FB72E00108752 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478CBD6B1A8FB72E00108752 /* Images.xcassets */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		4720B0CF1A8FCB6500294421 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		4720B0D21A90168400294421 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		478CBD5F1A8FB72E00108752 /* ApeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478CBD631A8FB72E00108752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		478CBD641A8FB72E00108752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4720B0D31A90168400294421 /* libstdc++.6.dylib in Frameworks */,
 				478CBDAD1A8FC86E00108752 /* Social.framework in Frameworks */,
 				478CBDAB1A8FC85D00108752 /* Accounts.framework in Frameworks */,
 				478CBDA11A8FB88E00108752 /* libsqlite3.dylib in Frameworks */,
@@ -115,6 +118,7 @@
 		478CBD561A8FB72E00108752 = {
 			isa = PBXGroup;
 			children = (
+				4720B0D21A90168400294421 /* libstdc++.6.dylib */,
 				478CBDA21A8FB91800108752 /* bridge-header.h */,
 				478CBD611A8FB72E00108752 /* ApeNotes */,
 				478CBD771A8FB72E00108752 /* ApeNotesTests */,
@@ -207,6 +211,7 @@
 				478CBD5B1A8FB72E00108752 /* Sources */,
 				478CBD5C1A8FB72E00108752 /* Frameworks */,
 				478CBD5D1A8FB72E00108752 /* Resources */,
+				4720B0D11A90158D00294421 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -291,6 +296,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4720B0D11A90158D00294421 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=/usr/local/bin:$PATH\ncd \"$PROJECT_DIR/parse\"\n\nparse symbols \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		478CBD5B1A8FB72E00108752 /* Sources */ = {

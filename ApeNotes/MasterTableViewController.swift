@@ -161,7 +161,8 @@ class MasterTableViewController: UITableViewController, PFLogInViewControllerDel
     }
     
     
-    override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
         self.performSegueWithIdentifier("editNote", sender: self)
     }
 

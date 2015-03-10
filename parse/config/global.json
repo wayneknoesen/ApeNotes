@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "ApeNotes": {
+            "applicationId": "KxRcCm4vh2s5HWfYxXozKe3k9XMKwAq1otzRD5ET", 
+            "masterKey": "cVFr3lCqVts8hyLyCjuTMote5wvGwtTBPuJ3vrAE"
+        }, 
+        "_default": {
+            "link": "ApeNotes"
+        }
+    }
+}
